@@ -1,0 +1,170 @@
+@import '../node_modules/normalize.css/normalize.css';
+
+*{
+    box-sizing: border-box;
+    font-family: arial,sans-serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    font-size: 1.4rem;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p{
+    margin: 0;
+}
+
+
+
+/*---------------------------------------------------------*/
+
+.header{
+    width: 100%;
+    height: 60px;
+}
+
+.header__nav{
+    height: inherit;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__nav-container{
+    display: flex;
+    align-items:  center;
+    margin-right: 16px;
+}
+
+.header__nav-container li{
+    margin: 0 10px;
+}
+
+.menu-icon{
+    background: url('https://www.pngkey.com/png/full/207-2070054_grid-menu-gallery-set-collection-android-interface-google.png');
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.header__nav-container li:hover a{
+    text-decoration: underline;
+}
+
+.header__nav-container li a img{
+    border-radius: 50%;
+}
+
+.google-log{
+    margin-top: 60px;
+    text-align: center;
+}
+
+.search-form{
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+.search-form-container{
+    margin: 0 auto;
+    width: 580px;
+    height: 44px;
+    border-radius: 100px;
+    border: 1px solid rgba(107, 107, 107, 0.342);
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.search-form-container:hover{
+    box-shadow: 0 1px 6px 0 rgba(32,33,36,0.28);
+    border-color: rgba(107, 107, 107, 0.219);
+}
+
+.search-form-container input{
+    width: 480px;
+    outline: none;
+    border: none;
+}
+
+.search-form-container .search--icon{
+    background-image: url('https://cdn4.iconfinder.com/data/icons/commenly-needed/400/Icon-12-512.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 25px;
+    height: inherit;
+
+}
+
+.search-form-container .micro-icon{
+    background-image: url('https://www.searchpng.com/wp-content/uploads/2019/02/Voice-Search-Icon-PNG-715x715.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 20px;
+    height: inherit;
+}
+
+.main-buttons button{
+    padding: 10px;
+    background-color: rgb(241, 241, 241);
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+    color: rgb(63, 63, 63);
+}
+
+.main-buttons button:hover{
+    border:1px solid rgba(107, 107, 107, 0.342);
+}
+
+.footer{
+    background: rgba(231, 231, 231, 0.438);
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4; 
+}
+
+.footer ul{
+    margin: 10px;
+    padding-left: 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer .footer-left{
+    justify-self: left;
+}
+
+.footer .footer-right{
+    justify-self: right;
+}
+
+.footer ul li a{
+    margin: 10px;
+    color: #5f6368;
+}
+
+
+
+
+
